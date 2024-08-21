@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background_color{
+    background-color: rgba(0,0,0,0.6);
+    
+}
+.background{
+    background:linear-gradient(to bottom ,rgba(255,255,255,0) 60%, rgba(0,0,0,0.8));
+}
+.background_three{
+    background:linear-gradient(to bottom left,rgba(9, 221, 203, 0.438) , rgba(109, 227, 227, 0.324));
+}
+.property{
+    display: grid;
+    gap:15px;
+    grid-template-columns: repeat(auto-fill,minmax(235px,1fr));
+
+}
+.admin{
+    width: 100vw;
+    height: 100vh;
+}
+.text_color_items{
+    color: rgba(2, 6, 12, 0.75);
+}
+.text_color_address{
+    color: rgba(2, 6, 12, 0.6);
+}
+.list_color{
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#cartHove:hover #addTocartB{
+    right:25px;
+    cursor: pointer;
+  }
+
